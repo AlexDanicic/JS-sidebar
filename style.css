@@ -270,8 +270,11 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  /* transform: translate(-100%); */
+  /* push the sidebar left */
+  transform: translate(-100%);
 }
+
+/* get back the sidebar to the main position */
 .show-sidebar {
   transform: translate(0);
 }
